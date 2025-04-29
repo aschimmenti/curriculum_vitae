@@ -1,0 +1,61 @@
+/* Custom styles to override the default styles */
+
+/* Make research area cards smaller */
+.research-area-item {
+  padding: 1.2rem;  /* Reduced from 1.5rem */
+  max-width: 95%;   /* Limit the width */
+  /* Removed margin: 0 auto to maintain original positioning */
+}
+
+.research-area-item h3 {
+  font-size: 1.3rem;  /* Reduced from 1.4rem */
+  margin-bottom: 0.8rem;  /* Reduced from 1rem */
+}
+
+/* Hide the more link since we've removed it from the data */
+.more-link {
+  display: none;
+}
+
+/* Teaching Section Styles */
+.teaching-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.teaching-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.teaching-item:hover {
+  transform: translateY(-5px);
+}
+
+.teaching-item h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.teaching-institution {
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: #6c5ce7;
+}
+
+.teaching-period {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.teaching-description {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
