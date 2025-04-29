@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/curriculum_vitae/static/css/main.e094d47e.css",
+    "main.js": "/curriculum_vitae/static/js/main.8dbbe12a.js",
+    "static/media/watermelon.svg": "/curriculum_vitae/static/media/watermelon.88fb2e5266332dd4a4fbc1dd323eeb1a.svg",
+    "index.html": "/curriculum_vitae/index.html",
+    "main.e094d47e.css.map": "/curriculum_vitae/static/css/main.e094d47e.css.map",
+    "main.8dbbe12a.js.map": "/curriculum_vitae/static/js/main.8dbbe12a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e094d47e.css",
+    "static/js/main.8dbbe12a.js"
+  ]
+}
