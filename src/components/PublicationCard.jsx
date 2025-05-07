@@ -9,7 +9,20 @@ const PublicationCard = ({ publication }) => {
       <p><strong>Authors:</strong> {publication.authors}</p>
       <p><strong>Journal/Conference:</strong> {publication.journal}</p>
       <p><strong>Year:</strong> {publication.year}</p>
-      <p><strong>DOI:</strong> {publication.doi}</p>
+      {publication.doi && <p><strong>DOI:</strong> {publication.doi}</p>}
+      {publication.link && (
+        <p>
+          <strong>Link:</strong>{' '}
+          <a 
+            href={publication.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{ color: '#0077cc', textDecoration: 'underline' }}
+          >
+            View Publication
+          </a>
+        </p>
+      )}
       
       {expanded ? (
         <>
@@ -23,13 +36,15 @@ const PublicationCard = ({ publication }) => {
           </button>
         </>
       ) : (
-        <button 
-          className="btn" 
-          onClick={() => setExpanded(true)}
-          style={{ marginTop: '10px' }}
-        >
-          Show Abstract
-        </button>
+        publication.abstract && (
+          <button 
+            className="btn" 
+            onClick={() => setExpanded(true)}
+            style={{ marginTop: '10px' }}
+          >
+            Show Abstract
+          </button>
+        )
       )}
     </div>
   );

@@ -7,7 +7,8 @@ const publicationsData = [
       year: 2024,
       pages: "463-468",
       venue: "XIII Convegno Annuale dell' Associazione per l'Informatica Umanistica e la Cultura Digitale: Me.Te. Digitali. Mediterraneo in rete tra testi e contesti (AIUCD 2024), Catania, 28/05/2024",
-      type: "Conference Proceedings"
+      type: "Conference Proceedings",
+      link: "https://cris.unibo.it/handle/11585/994558"
     },
     {
       id: 2,
@@ -25,7 +26,8 @@ const publicationsData = [
       journal: "Digital Humanities 2023: Book of Abstracts",
       year: 2023,
       pages: "376-378",
-      type: "Conference Abstract"
+      type: "Conference Abstract",
+      link: "https://cris.unibo.it/handle/11585/945552"
     },
     {
       id: 4,
@@ -33,7 +35,8 @@ const publicationsData = [
       authors: "Pedretti, C.T., Schimmenti, A., Tomasi, F., Vitali, F.",
       journal: "Copyright 2023 AIUCD Associazione per l'Informatica Umanistica e la Cultura",
       year: 2023,
-      type: "Conference Paper"
+      type: "Conference Paper",
+      link: "https://cris.unibo.it/handle/11585/1012668"
     },
     {
       id: 5,
@@ -42,7 +45,8 @@ const publicationsData = [
       journal: "International Conference on Theory and Practice of Digital Libraries",
       year: 2022,
       pages: "518-522",
-      type: "Conference Paper"
+      type: "Conference Paper",
+      link: "https://cris.unibo.it/handle/11585/894543"
     }
   ];
   
