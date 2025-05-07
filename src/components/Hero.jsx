@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import OrbitalAnimation from './OrbitalAnimation';
 import DecorativeStars from './DecorativeStars';
+import ScrollIndicator from './ScrollIndicator';
 
 const Hero = ({ name, title, institution }) => {
   // Create a reference to the element where Typed.js will be initialized
@@ -74,6 +75,9 @@ const Hero = ({ name, title, institution }) => {
       
       {/* Bottom Line */}
       <div className="hero-line bottom-line"></div>
+      
+      {/* Scroll Indicator */}
+      <ScrollIndicator />
     </div>
   );
 };
