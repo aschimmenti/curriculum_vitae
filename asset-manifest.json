@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/curriculum_vitae/static/css/main.1eda6930.css",
-    "main.js": "/curriculum_vitae/static/js/main.7a83f37b.js",
+    "main.js": "/curriculum_vitae/static/js/main.f2019c87.js",
     "static/media/watermelon.svg": "/curriculum_vitae/static/media/watermelon.88fb2e5266332dd4a4fbc1dd323eeb1a.svg",
     "index.html": "/curriculum_vitae/index.html",
     "main.1eda6930.css.map": "/curriculum_vitae/static/css/main.1eda6930.css.map",
-    "main.7a83f37b.js.map": "/curriculum_vitae/static/js/main.7a83f37b.js.map"
+    "main.f2019c87.js.map": "/curriculum_vitae/static/js/main.f2019c87.js.map"
   },
   "entrypoints": [
     "static/css/main.1eda6930.css",
-    "static/js/main.7a83f37b.js"
+    "static/js/main.f2019c87.js"
   ]
 }
