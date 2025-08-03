@@ -6,7 +6,7 @@ const profileData = {
     department: "DISI / FICLIT",
     researchCenter: "Digital Humanities Advanced Research Centre",
     profilePicture: "/curriculum_vitae/images/io.jpg", 
-    email: "andschimment@gmail.com",
+    email: "andschimmenti@gmail.com",
     github: "github.com/aschimmenti",
     linkedin: "linkedin.com/in/andrea-schimmenti-a0441b172/",
     website: "https://aschimmenti.github.io/curriculum_vitae/",
